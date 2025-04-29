@@ -58,9 +58,11 @@ h1 {
 
 /* Tablas (index.html) */
 table {
+  display: block;
+  overflow-x: auto;
   width: 100%;
-  border-collapse: collapse;
 }
+
 
 table, th, td {
   border: 1px solid #bdc3c7;
@@ -193,3 +195,10 @@ footer {
     width: 90%;
   }
 }
+
+@media (max-width: 1200px) {
+  main {
+    width: 80%;
+  }
+}
+
